@@ -1,0 +1,102 @@
+.contact{
+    padding-top: 5rem;
+}
+
+.contact-container{
+    padding: 0 4rem;
+}
+
+.contact-content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+}
+.contact-text p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #66FCF1;
+}
+
+.contact-text h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.contact-icon{
+    display: flex;
+    gap: 5rem;
+}
+
+.contact-icon-container a{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    margin-bottom: 5rem;
+    text-decoration: none;
+}
+
+.contact-icon-container a img{
+    width: 60px;
+    height: auto;
+}
+
+.contact-info h3{
+    font-weight: 600;
+    color: white;
+}
+
+.contact-info p{
+    color: white;
+    margin: 0.3rem 0;
+}
+
+#facebook-container a:hover #facebook{
+    background: linear-gradient(to right, #1877F2, #1877F2 50%, #1877F2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 2s;
+}
+
+#facebook-container a:hover {
+    background-color: rgba(226, 254, 254, 0.034);
+    box-shadow: 0 0 10px rgba(24, 119, 242, 0.75);
+    transition: 2s;
+}
+
+#instagram-container a:hover #instagram{
+    background: linear-gradient(to right, #FF0080, #FF529B, #9019FF, #405DE6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 2s;
+}
+
+#instagram-container a:hover {
+    background-color: rgba(226, 254, 254, 0.034);
+    box-shadow: 0 0 10px rgba(230, 46, 135, 0.75);
+    transition: 2s;
+}
+
+#gmail-container a:hover #gmail{
+    background: linear-gradient(to right, #BB001B, #4285F4, #EA4335, #FBBC05, #34A853);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    transition: 2s;
+}
+
+#gmail-container a:hover {
+    background-color: rgba(226, 254, 254, 0.034);
+    box-shadow: 0 0 10px rgba(17, 166, 66, 0.75);
+    transition: 2s;
+}
